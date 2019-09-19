@@ -1,0 +1,39 @@
+body {
+
+    background-color: white;
+    
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 3%;
+    border: 1px solid yellow;
+}
+
+h1, h2, p {
+
+    text-align: center;
+}
+
+form > * {
+
+    margin: 5%;
+    display:flex;
+    flex-direction: column;
+}
+input {
+
+    border: 2px solid black;
+    
+}
+
+
+label {
+
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
