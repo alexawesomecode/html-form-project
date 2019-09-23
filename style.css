@@ -1,39 +1,140 @@
 body {
 
-    background-color: white;
+    background-color: #eceef1;
+    font-family: Arial;
     
+}
+
+nav {
+
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    height: 4rem;
+    
+    }
+
+nav p {
+    line-height: 0.8;
+}
+
+.title h1 {
+
+    text-align: center;
+}
+.title ul {
+
+    list-style: none;
+    text-align: center;
+}
+.title li {
+
+    display: inline;
+
+}
+a {
+
+    color:  #0077C5;
+    text-decoration: none;
+    font-size: 12px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid yellow;
 }
 
 .form-container {
     display: flex;
     flex-direction: column;
-    width: 50%;
     margin: 0 auto;
-    padding: 3%;
-    border: 1px solid yellow;
+    background-color: #fff;
+    width: 33%;
+    height: 80%;
+    line-height: 1.5;
+    padding: 20px;
+    border: 1px solid rgb(51, 18, 104);
 }
 
-h1, h2, p {
+.input-box {
+
+    margin: 1rem 0;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.form-header h1, h2, p {
 
     text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4C4C4C;
 }
 
 form > * {
-
-    margin: 5%;
-    display:flex;
-    flex-direction: column;
-}
-input {
-
-    border: 2px solid black;
+    margin: 1rem;
+    width: 90%;   
     
 }
 
 
-label {
+input {
 
-    font-weight: bold;
-    font-size: 1.5rem;
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 0.6rem;
+
+}
+
+
+ label {
+
+}
+
+
+.input-button button {
+    width: 100%;
+    height: 44px;
+    border-radius: 8px;
+    padding: 6px 12px;
+    color: white;
+    background-color: #0077C5;
+    
+}
+
+
+.p-charges {
+
+font-size: 10px;
+text-align: left;
+}
+
+
+footer {
+ 
+    padding: 0 0 10px 0;
+    width: 70%;
+    margin: 0 auto;
+
+}
+footer ul {
+
+    list-style: none;
+    text-align: center;
+}
+footer li {
+
+   
+    display: inline;
+
+}
+
+footer p {
+
+    text-align: center;
+    font-family: Arial;
+    color: #505050;
 
 }
