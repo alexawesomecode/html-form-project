@@ -5,13 +5,17 @@ body {
   width: 100%;
   height: 100%;
   background-color: #eceef1;
-  font-family: Arial;
+  font-family: Arial, serif;
 }
 
 a {
   color: #0077c5;
   text-decoration: none;
   font-size: 12px;
+}
+
+footer ul li a {
+  color: #505050;
 }
 
 a:hover {
@@ -25,18 +29,36 @@ a:hover {
   text-align: center;
   margin-top: 4rem;
 }
+
 a img {
   width: 120px;
   height: 40px;
 }
+
 li img {
   width: 15px;
 }
+
+footer li {
+  display: inline;
+  margin-left: 1rem;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0.3rem;
+}
+
 .title ul {
   text-align: center;
   list-style: none;
   margin-top: 20px;
 }
+
 .title li {
   display: inline;
   font-size: 20px;
@@ -146,28 +168,11 @@ footer {
   width: 70%;
   margin: 0 auto;
 }
-footer ul {
-  list-style: none;
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 0.3rem;
-}
-footer li {
-  display: inline;
-  margin-left: 1rem;
-  font-size: 13px;
-  font-weight: 300;
-}
 
 footer p {
   text-align: center;
-  font-family: Arial;
   color: #505050;
   font-size: 12px;
-}
-
-footer ul li a {
-  color: #505050;
 }
 
 .recaptcha {
