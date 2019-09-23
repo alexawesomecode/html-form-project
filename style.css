@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #eceef1;
+  font-family: Arial;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav {
+  text-align: right;
+  display: flex;
+  justify-content: right;
+  height: 4rem;
+}
+
+nav p {
+  line-height: 0.8;
+}
+
+
+
+.title {
+    width: 33%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    
+
+}
+a img {
+    width: 120px;
+    height: 40px;
+}
+li img {
+    width: 15px;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 44px;
+    color: #4c4c4c;
+    margin-bottom: -5px;
+}
+.title ul {
+    text-align: center;
+    list-style: none;
+}
+.title li {
+    display: inline;
+    font-size: 20px;
+    color: #4c4c4c;
+    margin-right: 1rem;
+}
+
+a {
+  color: #0077c5;
+  text-decoration: none;
+  font-size: 12px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #fff;
+  width: 36%;
+  margin-top: 2rem;
+  height: 90%;
+  line-height: 1.5;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+}
+
+.form-header {
+  margin: 20px 12px 12px 20px;
+}
+
+.form-header h1,
+p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4c4c4c;
+}
+
+.form-header h2 {
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-size: 24px;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  font-family: initial;
+}
+
+form > * {
+  margin: 1rem;
+  width: 90%;
+}
+
+input {
+  border: 1px solid #c1c5c8;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 0.6rem;
+  height: 2rem;
+  padding-left: 8px;
+}
+
+input:focus {
+  border: 1px solid #52a8ec;
+  outline: 0;
+  border-color: rgba(82, 168, 236, 0.8);
+}
+
+label {
+  font-weight: 400;
+  color: #5a5656;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.input-button button {
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  padding: 6px 12px;
+  color: white;
+  background: #0077C5;
+  border: #0077C5;
+}
+
+.input-button span {
+    height: 1em;
+    width: .8em;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.137/images/icon-whitelock@3x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.p-charges {
+  font-size: 10px;
+  text-align: left;
+}
+
+footer {
+  padding: 0 0 10px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+footer ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: .3rem;
+}
+footer li {
+  display: inline;
+  margin-left: 1rem;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+footer p {
+  text-align: center;
+  font-family: Arial;
+  color: #505050;
+  font-size: 12px;
+}
+
+footer ul li a{
+    color: #505050;
+}
+
+.recaptcha {
+  padding: 15px;
+  background-color: #ECEEF1;
+}
+
+.recaptcha p {
+  font-size: 9px;
+}
+
+.terms {
+  margin: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .form-container {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form-container {
+    width: 80%;
+  }
+}
