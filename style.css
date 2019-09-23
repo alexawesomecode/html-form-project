@@ -1,64 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 html,
 body {
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
   background-color: #eceef1;
   font-family: Arial;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-nav {
-  text-align: right;
-  display: flex;
-  justify-content: right;
-  height: 4rem;
-}
-
-nav p {
-  line-height: 0.8;
-}
-
-
-
-.title {
-    width: 33%;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-    
-
-}
-a img {
-    width: 120px;
-    height: 40px;
-}
-li img {
-    width: 15px;
-}
-
-.title h1 {
-    text-align: center;
-    font-size: 44px;
-    color: #4c4c4c;
-    margin-bottom: -5px;
-}
-.title ul {
-    text-align: center;
-    list-style: none;
-}
-.title li {
-    display: inline;
-    font-size: 20px;
-    color: #4c4c4c;
-    margin-right: 1rem;
 }
 
 a {
@@ -66,6 +13,39 @@ a {
   text-decoration: none;
   font-size: 12px;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  width: 33%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  margin-top: 4rem;
+}
+a img {
+  width: 120px;
+  height: 40px;
+}
+li img {
+  width: 15px;
+}
+.title ul {
+  text-align: center;
+  list-style: none;
+  margin-top: 20px;
+}
+.title li {
+  display: inline;
+  font-size: 20px;
+  color: #4c4c4c;
+  position: relative;
+  margin-left: 13px;
+  cursor: pointer;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -86,6 +66,7 @@ a {
 
 .form-header {
   margin: 20px 12px 12px 20px;
+  text-align: center;
 }
 
 .form-header h1,
@@ -101,7 +82,6 @@ p {
   color: #4c4c4c;
   line-height: 1.1;
   font-size: 24px;
-  margin-left: 2rem;
   margin-bottom: 1rem;
   font-family: initial;
 }
@@ -139,20 +119,21 @@ label {
   border-radius: 8px;
   padding: 6px 12px;
   color: white;
-  background: #0077C5;
-  border: #0077C5;
+  background: #0077c5;
+  border: #0077c5;
+  cursor: pointer;
 }
 
 .input-button span {
-    height: 1em;
-    width: .8em;
-    margin-top: 2px;
-    margin-right: 4px;
-    vertical-align: text-top;
-    display: inline-block;
-    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.137/images/icon-whitelock@3x.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.137/images/icon-whitelock@3x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .p-charges {
@@ -169,7 +150,7 @@ footer ul {
   list-style: none;
   text-align: center;
   margin-top: 2rem;
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 footer li {
   display: inline;
@@ -185,13 +166,13 @@ footer p {
   font-size: 12px;
 }
 
-footer ul li a{
-    color: #505050;
+footer ul li a {
+  color: #505050;
 }
 
 .recaptcha {
   padding: 15px;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
 }
 
 .recaptcha p {
